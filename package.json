@@ -1,0 +1,18 @@
+{
+  "name": "hipages-lead-detector",
+  "version": "1.0.0",
+  "description": "Change detection module for Hipages Tradiecore leads with webhook notification",
+  "main": "lead-detector.js",
+  "scripts": {
+    "start": "node lead-detector.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "node-fetch": "^2.7.0",
+    "puppeteer": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
