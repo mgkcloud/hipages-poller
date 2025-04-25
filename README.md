@@ -62,8 +62,8 @@ The configuration is stored in the `CONFIG` object at the top of the `lead-detec
 const CONFIG = {
   // Authentication
   credentials: {
-    email: 'info@alldirectplumbing.com.au',
-    password: 'y6729WhV'
+    email: 'REPLACEME',
+    password: 'REPLACEME'
   },
   
   // URLs
@@ -74,7 +74,7 @@ const CONFIG = {
   
   // Webhook
   webhook: {
-    url: 'https://n8n.fy.studio/webhook/bbf85d2c-bc64-4693-a970-8a856cd8320a',
+    url: 'https://n8n.fy.studio/webhook/bbf85...',
     headers: {
       'Content-Type': 'application/json'
     }
